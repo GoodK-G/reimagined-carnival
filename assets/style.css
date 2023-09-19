@@ -1,3 +1,4 @@
+
 html{
     scroll-behavior: smooth;
     scroll-padding:10rem;
@@ -6,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#e4f1fe;
+    background-color:#34495e;
 }
 #wrapper {
     max-width: auto;
@@ -32,7 +33,7 @@ header h1{
     padding: 5px 0 5px 0;
     text-align: center;
     line-height: 32px;
-} 
+}
 ul.navList{
     margin-top: 15px;
 }
@@ -48,4 +49,103 @@ li{
 .navList a:hover{
     color:#e4f1fe
 }
+aside h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: none;
+    background-color: #22313f;
+    color: white;
+    
+}
+main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: auto;
+    background-color: #22313f;
+    margin: 10px 75px 10px 75px;
+    color: white;
+    font-size: 26px;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding:20px;
+    border-style: solid;
+    border-color: red;
+    background: #22313f
+}
+   
+.portfolioImage {
+    max-width: auto;
+    max-height: auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    opacity: 25%;
+    margin: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: white;
+    
+}
+#bigPicture{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    width: 95%;
+   
 
+    
+}
+.portfolioImage:hover{
+    opacity: 100%;
+    transition: all .5s ease-in;
+}
+
+.mainProject{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.image-card {
+    position: relative;
+}
+
+
+/* Style the text card positioned over the image */
+.card-text {
+    position: absolute;
+    top: 75%; /* Adjust the vertical position */
+    left: 20%; /* Adjust the horizontal position */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
+    padding: 20px;
+    color: #fff; /* Text color */
+    text-align: center;
+}
+
+.card-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text p {
+    font-size: 1rem;
+}
+footer {
+    flex-direction: row;
+    list-style-type: none;
+    color: whitesmoke;
+    background-color:#8dc6ff ;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+}

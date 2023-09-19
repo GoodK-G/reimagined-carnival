@@ -13,40 +13,73 @@
         </header>    
             <nav>
                 <ul class="navList"> <!--I want this on the top side of the page linking to the different projects that I have listed sitting on the same level as the pageHeader.-->
-                    <li> <a href="#">About me</a></li>
-                    <li> <a href="#">My Projects</a></li>
-                    <li> <a href="#">Contact me</a></li>
-                    <li> <a href="#">Resume</a></li>
+                    <li> <a href="#aboutMe">About me</a></li>
+                    <li> <a href="#myProjects">My Projects</a></li>
+                    <li> <a href="#contactMe">Contact me</a></li>
                 </ul>
             </nav>
     </div>
-    <aside>
+    <aside id="aboutMe">
         <h2>About me</h2>
     </aside>
-    <main>Enter information about yourself here</main><!--I want this sitting above the different projects that i have listed, centered with the main project's column-->
+    <main>
+        <p>I am someone with a diverse range of interests that keeps life exciting and fulfilling. 
+        My love for fishing reflects a deep connection to nature, finding solace and adventure by the water's edge. 
+        Reading transports me to different worlds, offering endless opportunities for learning and imagination.
+         Videogames, boardgames, and cardgames reveal my playful and strategic side, showcasing my ability to enjoy both solo and social gaming experiences.
+        I have two cats and one dog, I am undoubtedly an animal lover, sharing my home with furry companions who provide comfort and companionship. 
+        I have many interests and my bond with my pets enrich my life with joy and variety.
+        </p>
+
+    </main><!--I want this sitting above the different projects that i have listed, centered with the main project's column-->
     <article class="container">
         <h2>Projects</h2>
-        <section id="mainProject">
-            <img src="" alt="" class="portfolioImage">
+        <section id="myProjects"class="image-card">
+            <a href="https://goodk-g.github.io/shiny-bassoon/">
+            <img id="bigPicture" src="assets/images/picture1.png" alt="" class="portfolioImage">
+            </a>
+            <div class="card-text">
+                <h3>First Project</h3>
+                <p>HTML/CSS</p>
+            </div>
         </section>
-        <section class="secondayProjects">
-            <img src="" alt="" class="portfolioImage">
+        <section class="image-card" class="mainProject">
+            <a href="https://goodk-g.github.io/prework-study-guide/">
+            <img src="assets/images/picture2.png" alt="" class="portfolioImage">
+            </a>
+            <div class="card-text">
+                <h3>Second Project</h3>
+                <p>HTML/CSS</p>
+            </div>
         </section>
-        <section class="secondayProjects">
-            <img src="" alt="" class="portfolioImage">
+        <section class="image-card" class="mainProject">
+            <img src="assets/images/picture3.png" alt="" class="portfolioImage">
+            <div class="card-text">
+                <h3>TBD</h3>
+                <p></p>
+            </div>
         </section>
-        <section class="secondayProjects">
-            <img src="" alt="" class="portfolioImage">
+        <section class="image-card"  class="mainProject">
+            <img src="assets/images/picture3.png" alt="" class="portfolioImage">
+            <div class="card-text">
+                <h3>TBD</h3>
+                <p></p>
+            </div>
         </section>
-        <section class="secondayProjects">
-            <img src="" alt="" class="portfolioImage">
+        <section class="image-card" class="mainProject">
+            <img src="assets/images/picture3.png" alt="" class="portfolioImage">
+            <div class="card-text">
+                <h3>TBD</h3>
+                <p></p>
+            </div>
         </section>
     </article>
-    <footer>
+    <footer id="contactMe">
         <ul>
             <li class="footer">612-222-9983</li>
             <li class="footer"><a href="mailto:Kvngood65@gmail.com">Kvngood65@gmail.com</a></li>
             <li class="footer"><a href="">Resume</a></li>
+            <li class="footer"> <a href="">GitHub</a></li>
         </ul>
     </footer>
 </body>
